@@ -1,0 +1,23 @@
+{
+  "name": "filecoin-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "static": "nodemon static.js",
+    "dynamic": "nodemon dynamic.js",
+    "test": "nodemon test.js",
+    "get": "nodemon get.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "minimist": "^1.2.6",
+    "nodemon": "^2.0.19",
+    "web3.storage": "^4.4.0"
+  }
+}
